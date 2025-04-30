@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/textMachineName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Machine : "
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre des pieces effectués"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/nbtravaille"
+
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre des pieces Totale"
+            android:textSize="13dp"
+          />
+
+        <TextView
+            android:id="@+id/nbtotal"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="13dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnResetTravaille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remettre nbpiecetravaille à 0"/>
+
+</LinearLayout>
